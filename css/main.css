@@ -1,0 +1,97 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-family:Playfair Display,serif;
+ }
+h2{
+  color:#BCCE98;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+li{
+  padding: 90px;
+}
+
+header {
+  background: #BCCE98;
+  color: #fff;
+  padding: 20px;
+}
+.container {
+  width: 100%;
+  text-align: center; /* Optional: Align textboxes horizontally */
+}
+
+.textbox {
+  width: 30%; /* Adjust width as needed */
+  display: inline-block;
+  margin-right: 20px; /* Add margin between textboxes */
+  vertical-align: top; /* Align textboxes vertically */
+}
+
+.textbox p {
+  padding: 10px;
+  background-color: #BCCE98;
+  border: 1px solid #333;
+}
+.logo img {
+  width: 100px; /* Adjust size as needed */
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: underline;
+}
+body {
+background-color:lavender;
+}
+
+  
+.hero-content {
+  max-width: 600px;
+  font-family: 'Brush Script MT',cursive;
+  font-size:x-large;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  background: #b0c881;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.destinations,
+.packages,
+.contact {
+  padding: 80px 100px;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+}
+
+footer {
+  background: #BCCE98;
+  color: #fff;
+  padding: 20px;
+}
